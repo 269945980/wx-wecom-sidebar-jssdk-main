@@ -5,7 +5,7 @@ export type GetUserId = (code: string) => Promise<string>;
 export interface Config {
   corpId: string;
   agentId: string;
-  config:string;
+  scope:string;
 }
 
 // 签名信息
